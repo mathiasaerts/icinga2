@@ -17,8 +17,12 @@ class Value;
 /**
  * String class.
  *
- * Rationale for having this: The std::string class has an ambiguous assignment
+ * Rationales for having this:
+ *
+ * The std::string class has an ambiguous assignment
  * operator when used in conjunction with the Value class.
+ *
+ * CoW
  */
 class String
 {
